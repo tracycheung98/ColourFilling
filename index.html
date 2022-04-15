@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Colour Filling</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/ColourFilling.js"></script>
+
+</head>
+
+<body>
+    <h1>Colour Filling</h1>
+    <form>
+        <label for="size">Choose the size of the canvas:</label>
+        <select name="size" id="size" form="size" onchange="CanvasSize()">
+            <option value="0" selected>0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+        </select>
+        
+        <hr>
+
+        <p>Colour Palette (in order)</p>
+        <table id="palette">
+            <tr>
+                <td style="background: black;"></td>
+                <td style="background: red;"></td>
+                <td style="background: orange;"></td>
+                <td style="background: yellow;"></td>
+                <td style="background: green;"></td>
+                <td style="background: blue;"></td>
+                <td style="background: purple;"></td>
+                <td style="background: white;"></td>
+            </tr>
+        </table>
+        
+        <hr>
+        
+            <h4>~ Canvas ~</h4>
+            <p>Click the cell to change colour! <br>
+            <table id="table">
+        </table>
+    </form>
+</body>
+
+</html>
