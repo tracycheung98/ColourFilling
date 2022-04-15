@@ -1,2 +1,2 @@
 # ColourFilling
-![Screenshot 2022-04-14 at 11 21 21 PM](https://user-images.githubusercontent.com/74678155/163530249-fea535df-5c3f-42e2-b8fc-16830af2b210.png)
+![ColourFilling](https://user-images.githubusercontent.com/74678155/163530287-8a978ba3-7731-4807-b955-2ca154ec7a8a.png)
